@@ -4,7 +4,7 @@ function Landing(){
     const data = useLocation()
     return(
         <>
-        <h1>Hello {data.state.user}</h1>
+        <h1 className="text-4xl">Hello {data.state.user}</h1>
         </>
     )
 }
